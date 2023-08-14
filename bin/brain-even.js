@@ -2,5 +2,5 @@
 import { getUserName } from "../src/cli.js";
 import { getAnswer } from "../src/brain-even-cod.js";
 
-getUserName();
-getAnswer();
+const name = getUserName();
+getAnswer(name);
