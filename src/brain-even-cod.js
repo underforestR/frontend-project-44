@@ -1,4 +1,4 @@
-import readlineSync from "readline-sync";
+import readlineSync from 'readline-sync';
 
 const getAnswer = (userName) => {
   let n = 0;
@@ -6,16 +6,17 @@ const getAnswer = (userName) => {
   console.log('Answer "yes" if the number is even, otherwise answer "no".');
   while (n < 3) {
     console.log(`Question: ${num}`);
-    const userAnswer = readlineSync.question("Your answer:");
+    const userAnswer = readlineSync.question('Your answer:');
+    // eslint-disable-next-line no-loop-func
     const evenCheck = () => {
       if (num % 2 === 0) {
-        return "yes";
+        return 'yes';
       }
-      return "no";
+      return 'no';
     };
     if (userAnswer === evenCheck()) {
-      console.log("Correct!");
-      n = n + 1;
+      console.log('Correct!');
+      n += 1;
     } else {
       console.log(
         `'${userAnswer}'is wrong answer ;(. Correct answer was '${evenCheck()}'`
@@ -26,4 +27,4 @@ const getAnswer = (userName) => {
   }
   console.log(`Congratulations, ${userName}!`);
 };
-export { getAnswer };
+export default getAnswer;

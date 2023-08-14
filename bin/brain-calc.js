@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 import getUserName from '../src/cli.js';
-import getAnswer from '../src/brain-even-cod.js';
+import getCalc from '../src/brain-calc-cod.js';
 
 const name = getUserName();
-getAnswer(name);
+getCalc(name);
