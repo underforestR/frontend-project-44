@@ -7,7 +7,6 @@ const getAnswer = (userName) => {
   while (n < 3) {
     console.log(`Question: ${num}`);
     const userAnswer = readlineSync.question('Your answer:');
-    // eslint-disable-next-line no-loop-func
     const evenCheck = () => {
       if (num % 2 === 0) {
         return 'yes';
