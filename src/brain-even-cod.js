@@ -19,7 +19,7 @@ const getAnswer = (userName) => {
       n += 1;
     } else {
       console.log(
-        `'${userAnswer}'is wrong answer ;(. Correct answer was '${evenCheck()}'\nLet's try again, ${userName}`
+        `'${userAnswer}' is wrong answer ;(. Correct answer was '${evenCheck()}'\nLet's try again, ${userName}`
       );
       return;
     }
