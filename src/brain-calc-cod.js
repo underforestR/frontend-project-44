@@ -27,7 +27,7 @@ const getCalc = (userName) => {
     } else {
       console.log(
         // eslint-disable-next-line comma-dangle
-        `'${userAnswer}' is wrong answer ;(. Correct answer was '${calc()}'\nLet's try again, ${userName}`
+        `'${userAnswer}' is wrong answer ;(. Correct answer was '${calc()}'\nLet's try again, ${userName}!`
       );
       return;
     }

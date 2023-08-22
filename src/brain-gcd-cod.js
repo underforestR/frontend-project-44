@@ -38,7 +38,7 @@ const getGcd = (userName) => {
       } else {
         console.log(
           // eslint-disable-next-line comma-dangle
-          `'${userAnswer}' is wrong answer ;(. Correct answer was '${commonDivisor()}'\nLet's try again, ${userName}`
+          `'${userAnswer}' is wrong answer ;(. Correct answer was '${commonDivisor()}'\nLet's try again, ${userName}!`
         );
         return;
       }

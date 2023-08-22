@@ -25,7 +25,7 @@ const getEazyNumber = (userName) => {
       n += 1;
     } else {
       console.log(
-        `'${userAnswer}' is wrong answer ;(. Correct answer was '${easyCheck()}'\nLet's try again, ${userName}`
+        `'${userAnswer}' is wrong answer ;(. Correct answer was '${easyCheck()}'\nLet's try again, ${userName}!`
       );
       return;
     }
