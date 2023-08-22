@@ -29,6 +29,7 @@ const getProgression = (userName) => {
       n += 1;
     } else {
       console.log(
+        // eslint-disable-next-line comma-dangle
         `'${userAnswer}' is wrong answer ;(. Correct answer was '${x}'\nLet's try again, ${userName}!`
       );
       return;

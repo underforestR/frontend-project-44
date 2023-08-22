@@ -9,6 +9,7 @@ const getGcd = (userName) => {
     if (num1 !== 0 && num2 !== 0) {
       console.log(`Question: ${num1} ${num2}`);
       const userAnswer = readlineSync.question('Your answer: ');
+      // eslint-disable-next-line no-shadow
       const divisorFinder = (num1) => {
         const num1Arr = [];
         for (let i = num1; i > 0; i -= 1) {

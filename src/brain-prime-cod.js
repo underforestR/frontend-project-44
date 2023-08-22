@@ -25,6 +25,7 @@ const getEazyNumber = (userName) => {
       n += 1;
     } else {
       console.log(
+        // eslint-disable-next-line comma-dangle
         `'${userAnswer}' is wrong answer ;(. Correct answer was '${easyCheck()}'\nLet's try again, ${userName}!`
       );
       return;
