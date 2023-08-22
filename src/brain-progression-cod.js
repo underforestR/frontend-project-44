@@ -18,7 +18,7 @@ const getProgression = (userName) => {
     const value = Math.round(Math.random() * 9);
     x = newArray[value];
     newArray[value] = '..';
-    return newArray;
+    return newArray.join(' ');
   };
   console.log('What number is missing in the progression?');
   while (n < 3) {
