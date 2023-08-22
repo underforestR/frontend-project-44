@@ -2,9 +2,10 @@ import readlineSync from 'readline-sync';
 
 const getAnswer = (userName) => {
   let n = 0;
-  let num = Math.round(Math.random() * 100);
+
   console.log('Answer "yes" if the number is even, otherwise answer "no".');
   while (n < 3) {
+    const num = Math.round(Math.random() * 100);
     console.log(`Question: ${num}`);
     const userAnswer = readlineSync.question('Your answer:');
     const evenCheck = () => {
@@ -22,7 +23,6 @@ const getAnswer = (userName) => {
       );
       return;
     }
-    num = Math.round(Math.random() * 100);
   }
   console.log(`Congratulations, ${userName}!`);
 };
