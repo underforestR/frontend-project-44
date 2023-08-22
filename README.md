@@ -6,3 +6,4 @@
 [![Asciinema](https://dashboard.snapcraft.io/site_media/appmedia/2019/02/logo-red-256x256.png)](https://asciinema.org/a/yMCbzsdXU99BRDySVsESveL58)
 [![Asciinema](https://dashboard.snapcraft.io/site_media/appmedia/2019/02/logo-red-256x256.png)](https://asciinema.org/a/7GquzOTQoM9LveDE5qgzowWBA)
 [![Asciinema](https://dashboard.snapcraft.io/site_media/appmedia/2019/02/logo-red-256x256.png)](https://asciinema.org/a/Y9bPBGHerxPBmmb5seiY5FoIa)
+[![Asciinema](https://dashboard.snapcraft.io/site_media/appmedia/2019/02/logo-red-256x256.png)](https://asciinema.org/a/rCW7TZD8wFXPj5AOHCAjQD6vs)
